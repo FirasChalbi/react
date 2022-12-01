@@ -10,6 +10,9 @@ function Counter() {
         <button onClick={() => setCount(Count + 1)}>+</button>
         <button onClick={() => setCount(Count - 1)}>-</button>
     </div>
+    <a href="https://firasch.netlify.app" target="_blank" rel="noreferrer">
+          <button>Click</button>
+        </a>
     </div>
   )
 }

@@ -37,19 +37,7 @@ h1{
 }
 .button-wrapper{
     display: flex;
+    justify-content: center;
     gap: 1rem;
-
-    & > *{
-        border:none;
-        background-color:white;
-        box-shadow: 0px 0px 10px blue;
-        font-weight: bold;
-        font-size: 2rem;
-        color:inherit;
-        border-raduis:50%;
-        height: 4rem;
-        width: 4rem;
-
-    }
 
 }
