@@ -13,6 +13,22 @@
       rgba(100, 115, 255, 1) 100%
     );
   }
+  .netflix-button {
+    position: fixed; /* Fix the button to the screen */
+  bottom: 20px; /* Position the button 20px from the bottom of the screen */
+  right: 20px; /* Position the button 20px from the right side of the screen */
+  background-color: #4caf50; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline block */
+  font-size: 16px; /* Set the font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: all 0.5s; /* Add a transition effect on hover */
+  }
   .todo-app {
     display: flex;
     flex-direction: column;
@@ -145,3 +161,23 @@
   .edit-icon {
     color: #fff;
   }
+  .netflix-button {
+    background: linear-gradient(to right, #E50914, #F77737); /* Red gradient background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    font-size: 16px; /* Set the font size */
+    padding: 15px 30px; /* Add some padding */
+    border-radius: 4px; /* Add rounded corners */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Add a shadow effect */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: all 0.3s ease; /* Add a transition effect on hover */
+    outline: none; /* Remove the outline */
+  }
+  
+  /* Add a hover effect */
+  .netflix-button:hover {
+    background: linear-gradient(to right, #F77737, #E50914); /* Reverse the gradient on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Darken the shadow on hover */
+  }
+  
+  
